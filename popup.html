@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YT Video Audio Download</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 200px;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Download Options</h3>
+  <label for="quality">Select Quality:</label>
+  <select id="quality">
+    <option value="1080">1080p</option>
+    <option value="720">720p</option>
+    <option value="480">480p</option>
+    <option value="360">360p</option>
+    <option value="240">240p</option>
+    <option value="144">144p</option>
+  </select>
+  <br><br>
+  <button id="downloadVideo">Download Video</button>
+  <button id="extractAudio">Extract Audio</button>
+  <script src="popup.js"></script>
+</body>
+</html>
